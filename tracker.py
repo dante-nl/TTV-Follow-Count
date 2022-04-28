@@ -8,10 +8,9 @@ twitch = Twitch(client_id, client_secret)
  
 channel_name = 'DESIRED CHANNEL'
 channel_id = twitch.get_users(logins=[channel_name]).get('data')[0].get('id')
-  
-curr_follows = str(twitch.get_users_follows(first=1, to_id=channel_id)['total'])
-  
+
 while True:
+    curr_follows = str(twitch.get_users_follows(first=1, to_id=channel_id)['total'])
     fp = open('count.txt', 'w')
     fp.write(curr_follows) 
     fp.close()
