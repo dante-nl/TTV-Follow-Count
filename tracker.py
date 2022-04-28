@@ -1,5 +1,6 @@
   1 from twitchAPI.twitch import Twitch
   2 from os.path import exists
+    from time import sleep
   3 
   4 client_id = 'YOUR CLIENT ID'
   5 client_secret = 'YOUR CLIENT SECRET'
