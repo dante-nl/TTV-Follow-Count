@@ -1,5 +1,5 @@
 # Twitch-Follow-Count
-Script that uses Python and twitchAPI to write a twitch channels current follow count to a text file. Primarily made for a simple follower counter in OBS.
+Script that uses Python and twitchAPI to write a Twitch Channel's current follower count to a text file. Primarily made for a simple follower counter in OBS.
 
 ## Prerequisites
 - **Python** installed and running on your system
