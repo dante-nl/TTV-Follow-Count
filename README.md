@@ -17,3 +17,8 @@ After aquiring **tracker.py** and moving it to your desired directory, edit the 
 ## Usage
 
 Simply run the script and presto! The follower count of that channel should be written in the text file **tracker_count.txt**.
+
+## Foreword
+
+- Auto-updating is in the works! I just wanted to get the basic functionality out first.
+- I hate to admit that this took way longer than it needed to...
