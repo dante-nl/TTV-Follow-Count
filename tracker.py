@@ -16,5 +16,5 @@ while True:
     fp.write(curr_follows) 
     fp.close()
     print(f"Follow count updated [Followers: {curr_follows}]")
-    time.sleep(30) # Updates every 30 seconds
+    sleep(30) # Updates every 30 seconds
 
