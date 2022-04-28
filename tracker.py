@@ -12,6 +12,6 @@
  12 
  13 # print(f"Followers: {curr_follows} / 10")
  14 
- 15 fp = open('count.txt', 'w')
+ 15 fp = open('tracker_count.txt', 'w')
  16 fp.write(curr_follows)
  17 fp.close()
