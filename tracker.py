@@ -1,10 +1,10 @@
- from twitchAPI.twitch import Twitch
- from os.path import exists
- from time import sleep
+from twitchAPI.twitch import Twitch
+from os.path import exists
+from time import sleep
  
- client_id = 'YOUR CLIENT ID'
- client_secret = 'YOUR CLIENT SECRET'
- twitch = Twitch(client_id, client_secret)
+client_id = 'YOUR CLIENT ID'
+client_secret = 'YOUR CLIENT SECRET'
+twitch = Twitch(client_id, client_secret)
  
 channel_name = 'DESIRED CHANNEL'
 channel_id = twitch.get_users(logins=[channel_name]).get('data')[0].get('id')
