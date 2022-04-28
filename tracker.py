@@ -10,8 +10,10 @@
  10 
  11 curr_follows = str(twitch.get_users_follows(first=1, to_id=channel_id)['total'])
  12 
- 13 # print(f"Followers: {curr_follows} / 10")
- 14 
- 15 fp = open('tracker_count.txt', 'w')
- 16 fp.write(curr_follows)
- 17 fp.close()
+ 4 while True:
+ 15     fp = open('count.txt', 'w')
+ 16     fp.write(curr_follows) 
+ 17     fp.close()
+ 18     print(f"Follow count updated [Followers: {curr_follows}]")
+ 19     time.sleep(30) # Updates every 30 seconds
+
