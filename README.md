@@ -11,8 +11,8 @@ Script that uses Python and twitchAPI to write a Twitch Channel's current follow
 ## Initial Setup
 
 After aquiring **tracker.py** and moving it to your desired directory, edit the file with any text/code editor of choice. This is where you'll need your Client ID and secret; there a few things to change:
-- Replace ```YOUR CLIENT ID``` and ```YOUR CLIENT SECRET``` with the corresponding values given when registering the app with Twitch's Dev Console, (Lines 4 and 5)
-- Replace ```DESIRED CHANNEL``` with the name of the channel you'd like to track (Line 8)
+- Replace ```YOUR CLIENT ID``` and ```YOUR CLIENT SECRET``` with the corresponding values given when registering the app with Twitch's Dev Console, (Lines 5 and 6)
+- Replace ```DESIRED CHANNEL``` with the name of the channel you'd like to track (Line 7)
 
 ## Usage
 
