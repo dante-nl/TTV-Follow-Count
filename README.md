@@ -3,7 +3,7 @@ Script that uses Python and twitchAPI to write a Twitch Channel's current follow
 
 ## Prerequisites
 - **Python** installed and running on your system
-- **twitchAPI** for Python; install online or with [pip](https://pypi.org/project/twitchAPI/):
+- [**twitchAPI**](https://pypi.org/project/twitchAPI/) for Python; install online or with pip:
 >```pip install twitchAPI```
 - Go to [Twitch's Dev Console](https://dev.twitch.tv/console/apps) and register an application.
 > Make sure to use ```https://localhost:17563``` as your redirect link. Press **Create Secret** and **Save** as well. Jot down your client ID and secret for the initial setup (see below)
