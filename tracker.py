@@ -2,9 +2,11 @@ from twitchAPI.twitch import Twitch
 from time import sleep
 from datetime import datetime
 
+### ⬇️ ENTER YOUR INFO HERE ⬇️ ###
 client_id = 'YOUR CLIENT ID'
 client_secret = 'YOUR CLIENT SECRET'
 channel_name = 'DESIRED CHANNEL'
+
 
 twitch = Twitch(client_id, client_secret)
 channel_id = twitch.get_users(logins=[channel_name]).get('data')[0].get('id')
