@@ -34,7 +34,7 @@ async def run():
 
 			# logging
 			curr_time = datetime.now().strftime("%H:%M:%S")
-			print(f"[{curr_time}]: Follow count updated to {followers}")
+			print(f"[{curr_time}]: Follow count updated to {followers.total}")
 			# and do it all again in 30 seconds
 			time.sleep(30)
 	except KeyboardInterrupt:
