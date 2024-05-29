@@ -30,7 +30,7 @@ async def run():
 			followers = await twitch.get_channel_followers(user.id)
 			with open("count.txt", "w") as follower_file:
 				# save to file
-				follower_file.write(followers)
+				follower_file.write(str(followers.total))
 
 			# logging
 			curr_time = datetime.now().strftime("%H:%M:%S")
